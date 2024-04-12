@@ -1,0 +1,148 @@
+{
+    "CA23": {
+        "Yes": ["Basic Needs - Housing", "Basic Needs - Financial Support"]
+    },
+    "CA19": {
+        "Yes": ["Basic Needs - Food Security", "Basic Needs - Financial Support"]
+    },
+    "CA26": {
+        "No": ["Job Seeker - Emergency/Infrequent Child Care", "Community Supports - Dependent Care"]
+    },
+    "CA108": {
+        "5": ["Employment Services for Newcomers", "Community Supports - Cultural Connections", "Community Supports - Cultural Transition"]
+    },
+    "CA27": {
+        "Yes": ["Referral to Literacy and Basic Skills", "Referral to English as a Second Language Training (for newcomers only)"]
+    },
+    "CA30": {
+        "Yes": ["Community Supports - Justice and Legal Support"]
+    },
+    "CA59": {
+        "Always/Often/Sometimes": [
+            "Employer - Job Accommodation", 
+            "Employer - Job Placements with Financial Supports", 
+            "Employer Coaching", "Employer Job Carving",
+            "Job Seeker - Accommodation Needs - Assistive Devices and Adaptive Technology", 
+            "Job Seeker - Diagnostic Assessment",
+            "Accessible Workplace Consultation for Clients with a Disability", 
+            "Job Seeker - Accommodation Needs - Job-Specific Communications Skills Training"
+        ]
+    },
+    "CA62": {
+        "Always/Often/Sometimes": [
+            "Employer - Job Accommodation",
+            "Employer - Job Placements with Financial Supports",
+            "Employer Coaching",
+            "Employer Job Carving",
+            "Job Seeker - Accommodation Needs - Assistive Devices and Adaptive Technology",
+            "Job Seeker - Diagnostic Assessment",
+            "Accessible Workplace Consultation for Clients with a Disability",
+            "Job Seeker - Accommodation Needs - Job-Specific Communications Skills Training"
+        ]
+    },
+    "CA66": {
+        "Always/Often/Sometimes": [
+            "Employer - Job Accommodation",
+            "Employer - Job Placements with Financial Supports",
+            "Employer Coaching",
+            "Employer Job Carving",
+            "Job Seeker - Accommodation Needs - Assistive Devices and Adaptive Technology",
+            "Job Seeker - Diagnostic Assessment",
+            "Accessible Workplace Consultation for Clients with a Disability"
+        ]
+    },
+    "CA69": {
+        "Always/Often/Sometimes": [
+            "Employer - Job Accommodation",
+            "Employer - Job Placements with Financial Supports",
+            "Employer Coaching",
+            "Employer Job Carving",
+            "Job Seeker - Accommodation Needs - Assistive Devices and Adaptive Technology",
+            "Job Seeker - Diagnostic Assessment",
+            "Accessible Workplace Consultation for Clients with a Disability"
+        ]
+    },
+    "CA71": {
+        "Always/Often/Sometimes": [
+            "Employer - Job Accommodation",
+            "Employer - Job Placements with Financial Supports",
+            "Employer Coaching",
+            "Employer Job Carving",
+            "Job Seeker - Accommodation Needs - Assistive Devices and Adaptive Technology",
+            "Job Seeker - Diagnostic Assessment",
+            "Accessible Workplace Consultation for Clients with a Disability"
+        ]
+    },
+    "CA75": {
+        "Always/Often/Sometimes": [
+            "Employer - Job Accommodation",
+            "Employer - Job Placements with Financial Supports",
+            "Employer Coaching",
+            "Employer Job Carving",
+            "Job Seeker - Accommodation Needs - Assistive Devices and Adaptive Technology",
+            "Job Seeker - Diagnostic Assessment",
+            "Accessible Workplace Consultation for Clients with a Disability",
+            "Job Seeker - Accommodation Needs - Job-Specific Communications Skills Training"
+        ]
+    },
+    "CA78": {
+        "Always/Often/Sometimes": [
+            "Employer - Job Accommodation",
+            "Employer - Job Placements with Financial Supports",
+            "Employer Coaching",
+            "Employer Job Carving",
+            "Job Seeker - Accommodation Needs - Assistive Devices and Adaptive Technology",
+            "Job Seeker - Diagnostic Assessment",
+            "Accessible Workplace Consultation for Clients with a Disability",
+            "Job Seeker - Accommodation Needs - Job-Specific Communications Skills Training"
+        ]
+    },
+    "CA81": {
+        "Always/Often/Sometimes": [
+            "Employer - Job Accommodation",
+            "Employer - Job Placements with Financial Supports",
+            "Employer Coaching",
+            "Employer Job Carving",
+            "Job Seeker - Accommodation Needs - Assistive Devices and Adaptive Technology",
+            "Job Seeker - Diagnostic Assessment",
+            "Accessible Workplace Consultation for Clients with a Disability",
+            "Job Seeker - Accommodation Needs - Job-Specific Communications Skills Training"
+        ]
+    },
+    "CA84": {
+        "Always/Often/Sometimes": [
+            "Health Supports - Mental Health and Addictions",
+            "Employer - Job Placements with Financial Supports",
+            "Employer Coaching",
+            "Employer Job Carving",
+            "Job Seeker - Accommodation Needs - Assistive Devices and Adaptive Technology",
+            "Job Seeker - Diagnostic Assessment",
+            "Accessible Workplace Consultation for Clients with a Disability",
+            "Employer - Job Accommodation"
+        ]
+    },
+    "CA87": {
+        "Always/Often/Sometimes": [
+            "Health Supports - Primary Care and Ongoing Medical Concerns",
+            "Employer - Job Placements with Financial Supports",
+            "Employer Coaching",
+            "Employer Job Carving",
+            "Job Seeker - Accommodation Needs - Assistive Devices and Adaptive Technology",
+            "Job Seeker - Diagnostic Assessment",
+            "Accessible Workplace Consultation for Clients with a Disability",
+            "Employer - Job Accommodation"
+        ]
+    },
+    "CA90": {
+        "Always/Often/Sometimes": [
+            "Health Supports - Primary Care and Ongoing Medical Concerns",
+            "Employer - Job Placements with Financial Supports",
+            "Employer Coaching",
+            "Employer Job Carving",
+            "Job Seeker - Accommodation Needs - Assistive Devices and Adaptive Technology",
+            "Job Seeker - Diagnostic Assessment",
+            "Accessible Workplace Consultation for Clients with a Disability",
+            "Employer - Job Accommodation"
+        ]
+    }
+}

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+.prediction-component h1 {
+  font-family: 'Open Sans', sans-serif; /* This is a clean, modern font */
+  color: #2c3e50; /* A dark shade of blue */
+  text-align: center; /* Centering the header text */
+  text-shadow: 2px 2px 4px #7f8c8d; /* A subtle shadow for depth */
+  padding-bottom: 0.5rem; /* Spacing below the text */
+  margin-bottom: 2rem; /* Spacing below the header */
+  border-bottom: 2px solid #2980b9; /* A solid line to underline the header */
+}
+
+
+/* General styling */
+body, input, button, pre, p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.prediction-component {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
+
+/* Styling for the title */
+.prediction-component h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.prediction-component p {
+  text-align: left;
+}
+
+/* Styling for file input container */
+.file-input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  justify-content: space-between; /* Distributes space between and around content items */
+}
+
+.file-input-container input[type="file"] {
+  flex-grow: 1; /* Allows input to grow and fill available space */
+  margin-right: 0.5rem; /* Adds a small margin between input and button */
+  border-radius: 6px;
+}
+
+.file-input-container button {
+  border-radius: 6px;
+  min-width: 120px;
+  white-space: nowrap; /* Prevents text in the button from wrapping */
+  flex-shrink: 0; /* Prevents button from shrinking */
+  padding: 10px 20px; /* Increase padding if needed and adjust according to your design */
+}
+
+
+/* Updated styling for the form elements */
+.prediction-component input[type="file"] {
+  border: 1px solid #ccc;
+  padding: 6px;
+  width: calc(100% - 120px); /* Subtract width of button and gap */
+}
+
+.prediction-component button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  width: 100px; /* Fixed width for the button */
+}
+
+.prediction-component button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Styling for the Prediction Result */
+.prediction-component .prediction-result {
+  border-radius: 6px;
+  background-color: #f8f9fa;
+  border-left: 5px solid #007bff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  white-space: pre-wrap;
+}
+
+/* Styling for the Prediction Result with Interventions */
+.prediction-component .prediction-result_with_interventions {
+  border-radius: 6px;
+  background-color: #f8f9fa;
+  border-left: 5px solid #078854;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  white-space: pre-wrap;
+}
+
+/* Styling for the Prediction Result with All Interventions */
+.prediction-component .prediction-result_with_all_interventions {
+  border-radius: 6px;
+  background-color: #f8f9fa;
+  border-left: 5px solid #cb0808;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  white-space: pre-wrap;
+}
+
+/* Styling for the Prediction Result with Interventions */
+.triggered_interventions {
+  border-radius: 6px;
+  background-color: #f8f9fa;
+  border-left: 5px solid #d8c008;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  white-space: pre-wrap; /* Preserves newlines and spaces */
+  text-align: left;
+  line-height: 1.2; /* Adjust line height for compactness */
+}
+
+
+
+/* Styling for additional details (probability, interventions) */
+.prediction-component p, .prediction-component ul {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* List styles */
+.prediction-component ul {
+  list-style-type: none; /* Removes the default list styling */
+  padding: 0; /* Removes the default padding */
+}
+
+.prediction-component li {
+  margin-bottom: 5px; /* Adds some space between the list items */
+}
+
+.prediction-component li:last-child {
+  margin-bottom: 0; /* Removes the margin for the last item */
+}
