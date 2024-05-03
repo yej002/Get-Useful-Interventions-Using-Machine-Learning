@@ -1,6 +1,11 @@
 # team-neu-yej002-zhijingt-ziywang50
 
-The goal of the project is to build a prototype of an AI-based tool that public sector organizations of the Beam Group company can use to predict service or intervention needs based on client characteristics and results. 
+The goal of the project is to build a prototype of an AI-based tool/machine learning tool that public sector organizations of the Beam Group company can use to predict service or intervention needs based on client characteristics and to predict the probabilities of Return to Work if the interventions are taken by the client.  
+
+# Demo
+[![demo](https://img.youtube.com/vi/YgJ39xx93ls/0.jpg)](https://www.youtube.com/watch?v=YgJ39xx93ls)
+
+
 
 ## Getting Started
 
@@ -13,7 +18,17 @@ What things you need to install the software and how to install them:
 - [Python](https://www.python.org/downloads/) (for the backend)
 - [Node.js and npm](https://nodejs.org/en/download/) (for the frontend)
 
-Note: The development was taken in the conda environment, if you don't have the necessary modules like sklearn, numpy, etc., please install them following the error message in the terminal.
+Note: The development was taken in the conda environment, if you don't have the necessary modules like sklearn, pandas, numpy, etc., please install them by typing the commands below in your terminal:
+```bash
+   pip install sklearn
+   pip install pandas
+   pip install numpy
+```
+
+or you can activate your conda environment by: 
+```bash
+   conda activate
+```
 
 ### Installing and Running the Backend
 
