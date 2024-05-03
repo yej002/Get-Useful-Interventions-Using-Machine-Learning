@@ -1,6 +1,6 @@
 # team-neu-yej002-zhijingt-ziywang50
 
-The goal of the project is to build a prototype of an AI-based tool/machine learning tool that public sector organizations of the Beam Group company can use to predict service or intervention needs based on client characteristics and to predict the probabilities of Return to Work if the interventions are taken by the client.  
+The goal of the project is to build a prototype of an AI-based tool/machine learning tool that public sector organizations of the Beam Group company can use to predict helpful services or interventions based on client characteristics and to predict the probabilities of Return to Work if the interventions are taken by the client.  
 
 # Demo
 [![demo](https://img.youtube.com/vi/YgJ39xx93ls/0.jpg)](https://www.youtube.com/watch?v=YgJ39xx93ls)
