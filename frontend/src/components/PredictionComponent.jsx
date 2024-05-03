@@ -1,24 +1,26 @@
 import React, { useState } from 'react';
-import { Chart, ArcElement, Tooltip, Legend } from 'chart.js';
 import './PredictionComponent.css';
 
-Chart.register(ArcElement, Tooltip, Legend);
-
+// Main component for handling model training and prediction operations
 function PredictionComponent() {
+  // State hooks to manage files and status
   const [trainingFile, setTrainingFile] = useState(null);
   const [predictionFile, setPredictionFile] = useState(null);
   const [predictionResult, setPredictionResult] = useState(null);
   const [trainingStatus, setTrainingStatus] = useState('');
   const [predictionStatus, setPredictionStatus] = useState('');
 
+  // Handles changes in the file input for training data
   const handleTrainingFileChange = (event) => {
     setTrainingFile(event.target.files[0]);
   };
 
+  // Handles changes in the file input for prediction data
   const handlePredictionFileChange = (event) => {
     setPredictionFile(event.target.files[0]);
   };
 
+  // Function to handle the training of the model
   const handleTrainModel = async () => {
     if (!trainingFile) {
       alert('Please upload a CSV file first!');
@@ -43,6 +45,7 @@ function PredictionComponent() {
     }
   };
 
+  // Function to make predictions using the trained model
   const handleMakePrediction = async () => {
     if (!predictionFile) {
       alert('Please upload a CSV file first!');
@@ -67,14 +70,11 @@ function PredictionComponent() {
     }
   };
 
-
-  // Helper function to parse and format the JSON result for display
+  // Function to format and display prediction results
   const formatPredictionResult = (resultData) => {
     try {
-      // log out the prediction result in console for validation
-      console.log(resultData.result)
+      console.log(resultData.result)  // Log the prediction result for debugging
 
-      // format the overall probability
       const overallProbabilityDifference = (resultData.overall_probability - resultData.baseline_probability) * 100;
       const formattedOverallProbabilityDifference = `${overallProbabilityDifference >= 0 ? '+' : ''}${overallProbabilityDifference.toFixed(2)}%`;
       const overallTextColor = overallProbabilityDifference > 0 ? 'darkred' : 'black';
@@ -87,18 +87,17 @@ function PredictionComponent() {
           <h2>Probability of Return to Work with predicted Interventions</h2>
           <ul>
             {resultData.each_probabilities.map(([category, intervention, probability_return_to_work], index) => {
-              // format each of the probability
               const probabilityDifference = (probability_return_to_work - resultData.baseline_probability) * 100;
               const formattedProbabilityDifference = `${probabilityDifference >= 0 ? '+' : ''}${probabilityDifference.toFixed(2)}%`;
               const textColor = probabilityDifference > 0 ? 'darkred' : 'black';
 
               return (
                 <li key={index} className="prediction-result_with_interventions">
-                  {category}: Taking <strong>{intervention}</strong>, the probability of Return to Work is: {probability_return_to_work * 100}%. 
+                  {category}: Taking <strong>{intervention}</strong>, the probability of Return to Work is: {probability_return_to_work * 100}%.
                   Changed by <strong><span style={{ color: textColor }}>{formattedProbabilityDifference}</span></strong>
                 </li>
               );
-            })}            
+            })}
           </ul>
 
           <pre className="prediction-result_with_all_interventions">
@@ -106,7 +105,6 @@ function PredictionComponent() {
             Changed by <strong><span style={{ color: overallTextColor }}>{formattedOverallProbabilityDifference}</span></strong>
           </pre>
           
-
           <h2>Triggered Interventions for Consideration</h2>
           <pre className="triggered_interventions">
             {resultData.triggered_interventions.join('\n')}
@@ -119,7 +117,7 @@ function PredictionComponent() {
     }
   };
 
-
+  // Main component UI
   return (
     <div className="prediction-component">
       <h1>Get Useful Interventions Using Machine Learning</h1>
@@ -134,7 +132,6 @@ function PredictionComponent() {
         <input type="file" onChange={handlePredictionFileChange} accept=".csv" />
         <button onClick={handleMakePrediction}>Make Prediction</button>
       </div>
-
 
       {predictionResult && (
         <div>
